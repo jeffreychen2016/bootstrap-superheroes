@@ -7,7 +7,7 @@ const printToDom = (string,id) => {
 const buildDomString = (data) => {
     string = '';
     for(let i = 0; i < data.length; i++){
-        string += `<div class='col-md-3'>`;
+        string += `<div class='col-sm-6 col-md-3'>`;
         string +=   `<div class='panel'>`;
         string +=       `<div class='panel-heading'>`;
         string +=           `<h3 class='panel-title'>${data[i].name}</h3>`;
